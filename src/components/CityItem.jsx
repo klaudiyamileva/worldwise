@@ -16,7 +16,6 @@ function CityItem({ city }) {
 
   async function handleDeleteCity(e) {
     e.preventDefault();
-
     await deleteCity(id);
   }
 
